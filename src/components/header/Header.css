@@ -1,0 +1,14 @@
+.header-container {
+  margin-bottom: 1vw; }
+  .header-container h1 {
+    font-family: "Mukta Mahee", serif;
+    color: #4d936f;
+    font-weight: bold;
+    font-size: 8vw; }
+  .header-container .about {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 2vw;
+    letter-spacing: 0.3vw; }
+
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,13 @@
+.contact-container {
+  margin-bottom: 3vw; }
+  .contact-container h1 {
+    color: #4d936f;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: bold; }
+  .contact-container .contact {
+    font-family: "Inconsolata";
+    margin-right: 3vw; }
+    .contact-container .contact span {
+      margin-left: 1vw; }
+
+/*# sourceMappingURL=Contact.css.map */

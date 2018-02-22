@@ -1,0 +1,18 @@
+@import '../../vars';
+
+.header-container {
+	margin-bottom: 1vw;
+	h1 {
+		font-family: $name-font;
+		color: $me-background;
+		font-weight: bold;
+		font-size: 8vw;
+	}
+
+	.about {
+		font-family: $sub-header;
+		font-weight: bold;
+		font-size: 2vw;
+		letter-spacing: 0.3vw;
+	}
+}

@@ -1,0 +1,21 @@
+@import '../../vars';
+
+.contact-container {
+	margin-bottom: 3vw;
+
+	h1 {
+		color: $me-background;
+		font-family: $header-font;
+		font-weight: bold;
+	}
+
+	.contact {
+		font-family: $code-font;
+
+		span {
+			margin-left: 1vw;
+		}
+
+		margin-right: 3vw;
+	}
+}
