@@ -2,6 +2,7 @@
 
 .contact-container {
 	margin-bottom: 3vw;
+	font-size: 1.6vw;
 
 	h1 {
 		color: $me-background;
@@ -12,8 +13,10 @@
 	.contact {
 		font-family: $code-font;
 
-		span {
+		a {
 			margin-left: 1vw;
+			color: $black;
+			text-decoration: none;
 		}
 
 		margin-right: 3vw;

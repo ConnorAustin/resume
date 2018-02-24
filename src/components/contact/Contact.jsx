@@ -4,19 +4,23 @@ import './Contact.css';
 const contacts = [
 	{
 		icon: 'fas fa-envelope',
-		val: 'cjaustin42@gmail.com'
+		val: 'cjaustin42@gmail.com',
+		link: 'mailto:cjaustin42@gmail.com'
 	},
 	{
 		icon: 'fas fa-phone',
-		val: '615-806-4822'
+		val: '615-806-4822',
+		link: 'tel:615-806-4822'
 	},
 	{
 		icon: 'fas fa-home',
-		val: 'connoraustin.github.io'
+		val: 'cjaustin.surge.sh',
+		link: 'https://cjaustin.surge.sh'
 	},
 	{
 		icon: 'fab fa-github',
-		val: 'github.com/connoraustin'
+		val: 'github.com/connoraustin',
+		link: 'https://github.com/connoraustin'
 	},
 ];
 
@@ -24,7 +28,7 @@ export default class Contact extends React.Component {
 	render() {
 		let contactList = contacts.map(c => {
 			return (
-				<span key={c.val} class="contact"><i className={c.icon}></i><span>{c.val}</span></span>
+				<span key={c.val} class="contact"><i className={c.icon}></i><a href={c.link}>{c.val}</a></span>
 			);
 		});
 

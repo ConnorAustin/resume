@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGC,qBAAG;EACF,KAAK,ECAS,OAAiB;EDC/B,WAAW,ECEC,yBAAyB;EDDrC,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,GAAG",
+"mappings": "AAGC,qBAAG;EACF,UAAU,EAAE,GAAG;EACf,KAAK,ECDS,OAAiB;EDE/B,WAAW,ECCC,yBAAyB;EDArC,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,GAAG",
 "sources": ["Section.scss","../../vars.scss"],
 "names": [],
 "file": "Section.css"

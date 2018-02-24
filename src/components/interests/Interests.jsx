@@ -8,7 +8,7 @@ export default class Interests extends React.Component {
 			<div>
 				<Section text="Interests"/>
 				<div class="interests-container">
-					Game Design, Guitar, Music, Programming, Board Games, Video Games, Art
+					Game Design, Guitar, Music, Programming, Board Games, Video Games, Art, Competition Programming
 				</div>
 			</div>
 		);
