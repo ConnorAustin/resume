@@ -16,7 +16,7 @@ const experience = [
 		title: 'Software Intern',
 		date: 'May 2017 - Aug 2017',
 		description:
-			['Co-led research project under supervision of CEO on predicting medical claim payment amounts using a deep nerual network.',
+			['Co-led research project under supervision of CEO on predicting medical claim payment amounts using a deep neural network.',
 			'The research project was successful and beat the previous Excel based model by 10%.']
 	},
 	{
