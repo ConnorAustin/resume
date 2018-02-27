@@ -22,6 +22,11 @@ const contacts = [
 		val: 'github.com/connoraustin',
 		link: 'https://github.com/connoraustin'
 	},
+	{
+		icon: 'fab fa-linkedin',
+		val: 'linkedin.com/in/cjaustin42',
+		link: 'https://www.linkedin.com/in/cjaustin42'
+	}
 ];
 
 export default class Contact extends React.Component {
