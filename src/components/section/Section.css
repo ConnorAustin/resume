@@ -1,8 +1,9 @@
 .section-container h1 {
-  margin-top: 2vw;
+  margin-top: 0.5vw;
   color: #4d936f;
   font-family: "Mukta Mahee", sans-serif;
   font-weight: bold;
-  font-size: 3vw; }
+  font-size: 3vw;
+}
 
 /*# sourceMappingURL=Section.css.map */

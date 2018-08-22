@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAEA,mBAAoB;EACnB,KAAK,ECFE,OAAe;EDGtB,WAAW,ECIE,gBAAgB;EDH7B,KAAK,EAAE,eAAe;EACtB,OAAO,EAAE,YAAY;EAErB,iCAAc;IACb,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,aAAa;IAC9B,KAAK,EAAE,IAAI;EAGZ,qBAAE;IACD,KAAK,ECXS,OAAiB;IDY/B,WAAW,ECND,aAAa;EDSxB,4BAAS;IACR,KAAK,EAAE,IAAI",
-"sources": ["Projects.scss","../../vars.scss"],
-"names": [],
-"file": "Projects.css"
-}
+{"version":3,"sourceRoot":"","sources":["projects.scss","../../vars.scss"],"names":[],"mappings":"AAEA;EACC,OCFO;EDGP,aCIa;EDHb;EACA;;AAEA;EACC;EACA;EACA;;AAGD;EACC,OCXc;EDYd,aCNU;;ADSX;EACC;;AAGD;EACC;;AAGD;EACC","file":"Projects.css"}

@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAGC,qBAAG;EACF,UAAU,EAAE,GAAG;EACf,KAAK,ECDS,OAAiB;EDE/B,WAAW,ECCC,yBAAyB;EDArC,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,GAAG",
-"sources": ["Section.scss","../../vars.scss"],
-"names": [],
-"file": "Section.css"
-}
+{"version":3,"sourceRoot":"","sources":["section.scss","../../vars.scss"],"names":[],"mappings":"AAGC;EACC;EACA,OCDc;EDEd,aCCY;EDAZ;EACA","file":"Section.css"}

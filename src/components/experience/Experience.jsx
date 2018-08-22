@@ -4,9 +4,16 @@ import './Experience.css';
 
 const experience = [
 	{
+		job: 'UBS',
+		title: 'Software Developer',
+		date: 'June 2018 - Current',
+		description:
+			['Implemented the JMS messaging system for automating processes', 'Debugged and wrote PL/SQL procedures']
+	},
+	{
 		job: 'Intrinsic Value',
 		title: 'Contractor',
-		date: 'Jan 2018 - Current',
+		date: 'Jan 2018 - May 2018',
 		description:
 			['Built the iOS portion and assisted debugging Android side for a react-native app alongside third-party software development team.',
 			'The app can poll for calls and answer them with video chat or text and show the map location of users among other features.']

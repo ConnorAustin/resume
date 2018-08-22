@@ -2,15 +2,25 @@
   color: #111111;
   font-family: "Raleway", serif;
   width: 100% !important;
-  display: inline-block; }
-  .projects-container .projects-row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; }
-  .projects-container a {
-    color: #4d936f;
-    font-family: "Inconsolata"; }
-  .projects-container .project {
-    width: 25vw; }
+  display: inline-block;
+}
+.projects-container .projects-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.projects-container a {
+  color: #4d936f;
+  font-family: "Inconsolata";
+}
+.projects-container .project {
+  width: 25vw;
+}
+.projects-container .project-desc {
+  font-size: 1.4vw;
+}
+.projects-container .sub-header {
+  margin: 0;
+}
 
 /*# sourceMappingURL=Projects.css.map */

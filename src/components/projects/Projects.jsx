@@ -16,7 +16,7 @@ const projects = [[
 	{
 		title: 'Compiler',
 		link: 'https://goo.gl/WR9Ngj',
-		desc: 'Made a compiler in C, Bison and Flex to compile a language called Slic.'
+		desc: 'Made a compiler in C, Bison and Flex to compile a homegrown language.'
 	}],
 	[{
 		title: 'Rust Ray Tracer',

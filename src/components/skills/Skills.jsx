@@ -14,7 +14,8 @@ const skills = [
 			'PHP',
 			'HTML',
 			'CSS / SASS',
-			'SQL'
+			'SQL',
+			'Oracle PL/SQL'
 		]
 	},
 	{
