@@ -6,7 +6,7 @@ export default class Header extends React.Component {
 		return (
 		<div class="header-container">
 			<h1>Connor Austin</h1>
-			<div class="about">Software Developer</div>
+			<span class="about"> // Software Developer</span>
 		</div>
 		);
 	}

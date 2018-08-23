@@ -1,6 +1,10 @@
 @import '../../vars';
 
 .header-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
 	margin-bottom: 1vw;
 	h1 {
 		font-family: $name-font;
@@ -10,9 +14,11 @@
 	}
 
 	.about {
-		font-family: $sub-header;
+		font-family: $code-font;
 		font-weight: bold;
-		font-size: 2.5vw;
+		font-size: 3.5vw;
 		letter-spacing: 0.3vw;
+		color: $black;
+		margin-left: 2vw;
 	}
 }
