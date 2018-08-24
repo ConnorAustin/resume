@@ -9,12 +9,13 @@
 }
 .contact-container .contact {
   font-family: "Inconsolata";
-  margin-right: 2vw;
+  margin-right: 1.3vw;
 }
 .contact-container .contact a {
   margin-left: 0.3vw;
   color: #111111;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=Contact.css.map */

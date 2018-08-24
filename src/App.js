@@ -29,6 +29,10 @@ class App extends Component {
         </div>
     );
   }
+
+  componentDidMount() {
+    document.title = 'Connor Austin - Resume';
+  }
 }
 
 export default App;
