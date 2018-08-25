@@ -14,8 +14,8 @@ const contacts = [
 	},
 	{
 		icon: 'fas fa-home',
-		val: 'cjaustin.surge.sh',
-		link: 'https://cjaustin.surge.sh'
+		val: 'connoraustin.xyz',
+		link: 'https://connoraustin.xyz'
 	},
 	{
 		icon: 'fab fa-github',
