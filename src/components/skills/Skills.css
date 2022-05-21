@@ -1,6 +1,6 @@
 .skills-container {
   display: inline-block;
-  width: 30vw;
+  width: 40vw;
 }
 .skills-container h2 {
   margin-bottom: 0;
@@ -10,10 +10,6 @@
   margin-bottom: 1.5vw;
 }
 .skills-container .skills-section span {
-  font-family: "Raleway", serif;
-}
-.skills-container li {
-  font-size: 2.3vw;
   font-family: "Raleway", serif;
 }
 

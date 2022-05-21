@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
 
 		return (
 		<div className="contact-container">
-			<div>{contactList}</div>
+			{contactList}
 		</div>
 		);
 	}

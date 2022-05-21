@@ -2,7 +2,9 @@
 
 .contact-container {
 	margin-bottom: 1.5vw;
-	font-size: 1.45vw;
+	font-size: 1.8vw;
+	display: flex;
+	justify-content: space-between;
 
 	h1 {
 		color: $me-background;

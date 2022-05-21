@@ -11,7 +11,7 @@ const projects = [[
 	{
 		title: 'SNES Controller',
 		link: 'https://goo.gl/NH54TN',
-		desc: 'Soldered Arduino to SNES controller board and built input driver in C for it.'
+		desc: 'Soldered Arduino to SNES controller board and wrote input driver for it.'
 	},
 	{
 		title: 'Compiler',

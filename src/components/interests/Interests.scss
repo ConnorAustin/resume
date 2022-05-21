@@ -3,50 +3,6 @@
 .interests-container {
 	color: $black;
 	font-family: $normal-font;
-	width: 30vw !important;
+	width: 40vw !important;
 	display: inline-block;
-
-	.icon {
-		text-align: center;
-		font-size: 4vw;
-	}
-
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	.experience {
-		display: flex;
-		flex-direction: column;
-		padding-bottom: 2vw;
-
-		h2 {
-			margin-bottom: 0;
-			margin-top: 0;
-		}
-
-		.position {
-			display: flex;
-			justify-content: flex-start;
-			align-items: baseline;
-			font-size: 1.8vw;
-			font-family: $code-font;
-
-			div {
-				margin-right: 1vw;
-			}
-
-			.date {
-				margin-right: 0;
-				margin-left: 1vw;
-			}
-		}
-
-		.description {
-			margin-top: 1vw;
-			font-size: 2vw;
-		}
-	}
 }

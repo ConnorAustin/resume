@@ -1,7 +1,7 @@
 .experience-container {
   color: rgb(17, 17, 17);
   font-family: "Raleway", serif;
-  width: 40vw !important;
+  width: 60vw !important;
   display: inline-block;
 }
 .experience-container ul {
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-family: "Inconsolata";
 }
 .experience-container .experience .position div {
@@ -34,7 +34,7 @@
 }
 .experience-container .experience .description {
   margin-top: 0.1vw;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
 }
 
 /*# sourceMappingURL=Experience.css.map */
