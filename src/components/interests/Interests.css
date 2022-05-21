@@ -1,0 +1,44 @@
+.interests-container {
+  color: rgb(17, 17, 17);
+  font-family: "Raleway", serif;
+  width: 30vw !important;
+  display: inline-block;
+}
+.interests-container .icon {
+  text-align: center;
+  font-size: 4vw;
+}
+.interests-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.interests-container .experience {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2vw;
+}
+.interests-container .experience h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.interests-container .experience .position {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  font-size: 1.8vw;
+  font-family: "Inconsolata";
+}
+.interests-container .experience .position div {
+  margin-right: 1vw;
+}
+.interests-container .experience .position .date {
+  margin-right: 0;
+  margin-left: 1vw;
+}
+.interests-container .experience .description {
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+
+/*# sourceMappingURL=Interests.css.map */

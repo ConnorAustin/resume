@@ -1,0 +1,12 @@
+@import '../../vars';
+
+.education-container {
+	color: $black;
+	font-family: $normal-font;
+	width: 30vw !important;
+	display: inline-block;
+
+	.education-stats {
+		font-family: $code-font;
+	}
+}

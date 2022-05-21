@@ -1,0 +1,20 @@
+.skills-container {
+  display: inline-block;
+  width: 30vw;
+}
+.skills-container h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.skills-container .skills-section {
+  margin-bottom: 1.5vw;
+}
+.skills-container .skills-section span {
+  font-family: "Raleway", serif;
+}
+.skills-container li {
+  font-size: 2.3vw;
+  font-family: "Raleway", serif;
+}
+
+/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,26 @@
+.projects-container {
+  color: rgb(17, 17, 17);
+  font-family: "Raleway", serif;
+  width: 100% !important;
+  display: inline-block;
+}
+.projects-container .projects-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.projects-container a {
+  color: rgb(77, 147, 111);
+  font-family: "Inconsolata";
+}
+.projects-container .project {
+  width: 25vw;
+}
+.projects-container .project-desc {
+  font-size: 1.5vw;
+}
+.projects-container .sub-header {
+  margin: 0;
+}
+
+/*# sourceMappingURL=Projects.css.map */

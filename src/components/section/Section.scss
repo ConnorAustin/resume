@@ -1,0 +1,11 @@
+@import '../../vars';
+
+.section-container {
+	h1 {
+		margin-top: 0.5vw;
+		color: $me-background;
+		font-family: $header-font;
+		font-weight: bold;
+		font-size: 3vw;
+	}
+}

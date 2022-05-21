@@ -1,0 +1,31 @@
+@import '../../vars';
+
+.projects-container {
+	color: $black;
+	font-family: $normal-font;
+	width: 100% !important;
+	display: inline-block;
+
+	.projects-row {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	a {
+		color: $me-background;
+		font-family: $code-font;
+	}
+
+	.project {
+		width: 25vw;
+	}
+
+	.project-desc {
+		font-size: 1.5vw;
+	}
+
+	.sub-header {
+		margin: 0;
+	}
+}

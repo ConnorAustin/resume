@@ -1,0 +1,20 @@
+.contact-container {
+  margin-bottom: 1.5vw;
+  font-size: 1.45vw;
+}
+.contact-container h1 {
+  color: rgb(77, 147, 111);
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: bold;
+}
+.contact-container .contact {
+  font-family: "Inconsolata";
+  margin-right: 1.7vw;
+}
+.contact-container .contact a {
+  margin-left: 0.4vw;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Contact.css.map */
