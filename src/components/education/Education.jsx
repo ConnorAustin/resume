@@ -7,7 +7,7 @@ export default class Education extends React.Component {
 		return (
 			<div>
 				<Section text="Education"/>
-				<div class="education-container">
+				<div className="education-container">
 					<h2 className="sub-header">Computer Science, BS</h2>
 					<div className="education-stats">Lipscomb University, 2018</div>
 				</div>

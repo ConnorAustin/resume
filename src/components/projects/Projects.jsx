@@ -11,12 +11,12 @@ const projects = [[
 	{
 		title: 'SNES Controller',
 		link: 'https://goo.gl/NH54TN',
-		desc: 'Soldered Arduino to SNES controller board and used C to communicate with it.'
+		desc: 'Soldered Arduino to SNES controller board and built input driver in C for it.'
 	},
 	{
 		title: 'Compiler',
 		link: 'https://goo.gl/WR9Ngj',
-		desc: 'Made a compiler in C, Bison and Flex to compile a homegrown language.'
+		desc: 'Made a compiler in C, Bison, and Flex to compile a homegrown language.'
 	}],
 	[{
 		title: 'Rust Ray Tracer',
@@ -26,7 +26,7 @@ const projects = [[
 	{
 		title: 'Mountain Man',
 		link: 'https://goo.gl/VLZMmq',
-		desc: 'Built an Android game in a week using Unity, C#.'
+		desc: 'Built an Android game in a week using Unity.'
 	},
 	{
 		title: 'Physics Website',
@@ -37,18 +37,19 @@ const projects = [[
 
 export default class Projects extends React.Component {
 	render() {
-		let project_rows = projects.map(pr => {
+		let project_rows = projects.map((pr, i) => {
 			let proj = pr.map(p => {
-				return (<div key={p.title} class="project">
-					<h2 className="sub-header">{p.title}</h2>
-					<a href={p.link}>{p.link}</a>
-					<div class="project-desc">{p.desc}</div>
-				</div>
-			);
+				return (
+					<div key={p.title} className="project">
+						<h2 className="sub-header">{p.title}</h2>
+						<a href={p.link}>{p.link}</a>
+						<div className="project-desc">{p.desc}</div>
+					</div>
+				);
 			});
 
 			return (
-				<div class="projects-row">
+				<div key={i} className="projects-row">
 					{proj}
 				</div>
 			);

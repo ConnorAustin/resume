@@ -33,12 +33,12 @@ export default class Contact extends React.Component {
 	render() {
 		let contactList = contacts.map(c => {
 			return (
-				<span key={c.val} class="contact"><i className={c.icon}></i><a href={c.link}>{c.val}</a></span>
+				<span key={c.val} className="contact"><i className={c.icon}></i><a href={c.link}>{c.val}</a></span>
 			);
 		});
 
 		return (
-		<div class="contact-container">
+		<div className="contact-container">
 			<div>{contactList}</div>
 		</div>
 		);
