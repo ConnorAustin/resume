@@ -8,11 +8,12 @@ const experience = [
 		title: 'Gameplay Engineer',
 		date: 'November 2018 - Current',
 		description:
-			['Scoped, documented, architected and implemented many gameplay features from database to client.', 
-			'Worked closely with designers to provide scripting support for our in-house visual scripting system and maintained the system itself.',
-			'Profiled in-game systems.',
+			['Shipped many gameplay features including card game AI, companion items, and hot-swappable player builds.', 
+			'Worked closely with designers providing scripting support and maintained the scripting system itself.',
+			'Profiled features in stressful scenarios.',
+			'Redesigned several legacy systems while maintaining backwards compatibility.',
 			'Fixed high priority live bugs.',
-			'Discovered and fixed in-game exploits in various systems.']
+			'Discovered and fixed several exploits.']
 	},
 	{
 		job: 'UBS',
@@ -27,7 +28,7 @@ const experience = [
 		title: 'Contractor',
 		date: 'Jan 2018 - May 2018',
 		description:
-			['Built the iOS app and assisted in debugging the Android app for a react-native app.',
+			['Built the iOS app and assisted the Android app in react-native.',
 			'Mediated communication with software contractors.']
 	},
 	{
