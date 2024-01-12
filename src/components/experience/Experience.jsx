@@ -4,16 +4,27 @@ import './Experience.css';
 
 const experience = [
 	{
+		job: 'Raven Software',
+		title: 'Senior Gameplay Engineer',
+		date: 'September 2022 - Current',
+		description:
+			['Shipped Call of Duty: Modern Warfare and Call of Duty: Modern Warfare II',
+			'Implemented gameplay features using a mix of C++ and script.',
+			'Debugged and fixed crash dumps that were blocking artists and designers.',
+			'Spearheaded creation of a new gamemode, working closely with artists and tracking overall production while implementing the gameplay.']
+	},
+	{
 		job: 'Zenimax Online Studios',
 		title: 'Gameplay Engineer',
-		date: 'November 2018 - Current',
+		date: 'November 2018 - August 2022',
 		description:
-			['Shipped many gameplay features including card game AI, companion items, and hot-swappable player builds.', 
-			'Worked closely with designers providing scripting support and maintained the scripting system itself.',
-			'Profiled features in stressful scenarios.',
+			['Shipped and supported several major expansions.', 
+			'Delivered new gameplay features including card game AI, companion items, and hot-swappable player builds.', 
+			'Worked closely with designers by providing scripting support and maintained the scripting system itself.',
+			'Performance profiled features ensuring they were scalable to MMO proportions.',
 			'Redesigned several legacy systems while maintaining backwards compatibility.',
-			'Fixed high priority live bugs.',
-			'Discovered and fixed several exploits.']
+			'Fixed high priority live bugs and crashes.',
+			'Discovered and fixed several major exploits.']
 	},
 	{
 		job: 'UBS',
@@ -22,28 +33,6 @@ const experience = [
 		description:
 			['Implemented JMS (messaging service) for automating processes.', 
 			'Wrote and debugged many PL/SQL procedures.']
-	},
-	{
-		job: 'Intrinsic Value',
-		title: 'Contractor',
-		date: 'Jan 2018 - May 2018',
-		description:
-			['Built the iOS app and assisted the Android app in react-native.',
-			'Mediated communication with software contractors.']
-	},
-	{
-		job: 'Revenue Platforms',
-		title: 'Software Intern',
-		date: 'May 2017 - Aug 2017',
-		description: ['Co-led research project predicting medical claim payment amounts using a neural network.',
-		'The research project was 10% more accurate on average than the previous model.']
-	},
-	{
-		job: 'American Music Channel',
-		title: 'Software Intern',
-		date: 'June 2016 - Aug 2016',
-		description: ['Configured and managed the staging server.',
-		'Built search functionality for artists, albums and songs. The search function would aggregate data from multiple databases.']
 	}
 ];
 
